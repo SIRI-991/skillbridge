@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+
+<courses>
+
+    <course>
+        <title>Web Development</title>
+        <instructor>John</instructor>
+        <duration>3 Months</duration>
+        <price>999</price>
+        <description>Learn HTML, CSS, JavaScript and build websites.</description>
+        <topics>
+            <topic>HTML</topic>
+            <topic>CSS</topic>
+            <topic>JavaScript</topic>
+            <topic>Projects</topic>
+        </topics>
+    </course>
+
+    <course>
+        <title>Python Programming</title>
+        <instructor>Smith</instructor>
+        <duration>2 Months</duration>
+        <price>799</price>
+        <description>Learn Python with real-world applications.</description>
+        <topics>
+            <topic>Basics</topic>
+            <topic>Functions</topic>
+            <topic>Projects</topic>
+        </topics>
+    </course>
+
+    <course>
+        <title>Java Programming</title>
+        <instructor>David</instructor>
+        <duration>3 Months</duration>
+        <price>899</price>
+        <description>Master Java and OOP concepts.</description>
+        <topics>
+            <topic>Core Java</topic>
+            <topic>OOP</topic>
+            <topic>Projects</topic>
+        </topics>
+    </course>
+
+    <course>
+        <title>Data Science</title>
+        <instructor>Priya</instructor>
+        <duration>4 Months</duration>
+        <price>1199</price>
+        <description>Learn data analysis and visualization.</description>
+        <topics>
+            <topic>Statistics</topic>
+            <topic>Pandas</topic>
+            <topic>Projects</topic>
+        </topics>
+    </course>
+
+    <course>
+        <title>Machine Learning</title>
+        <instructor>Rahul</instructor>
+        <duration>5 Months</duration>
+        <price>1299</price>
+        <description>Build ML models and AI applications.</description>
+        <topics>
+            <topic>Supervised</topic>
+            <topic>Unsupervised</topic>
+            <topic>Projects</topic>
+        </topics>
+    </course>
+
+</courses>

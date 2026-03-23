@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:element name="courses">
+        <xsd:complexType>
+            <xsd:sequence>
+
+                <xsd:element name="course" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+
+                            <xsd:element name="title" type="xsd:string"/>
+                            <xsd:element name="instructor" type="xsd:string"/>
+                            <xsd:element name="duration" type="xsd:string"/>
+                            <xsd:element name="price" type="xsd:int"/>
+                            <xsd:element name="description" type="xsd:string"/>
+
+                            <!-- Topics -->
+                            <xsd:element name="topics">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="topic" type="xsd:string" maxOccurs="unbounded"/>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>
